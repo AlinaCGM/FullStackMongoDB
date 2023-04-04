@@ -18,20 +18,21 @@ FullStackMongoDB is a web application built using the MERN stack (MongoDB, Expre
 **_Remember to run both front-end and back-end at the same time_**
 
 Backend:
+<ul>
+  <li>Node.js</li>
 
-Node.js
-Express.js
-MongoDB
-Mongoose
-Passport.js for authentication
-JWT for token-based authentication
+.Express.js
+.MongoDB
+.Mongoose
+.Passport.js for authentication
+.JWT for token-based authentication
 
 Frontend:
 
-React.js
-Redux Toolkit for state management
-Material-UI for styling
-Bootstrap for additional styling
-The project demonstrates the use of popular technologies for building scalable and maintainable full-stack applications while prioritizing user experience. The application's mobile responsiveness and user-friendly design make it easy for users to navigate and shop online.
+.React.js
+.Redux Toolkit for state management
+.Material-UI for styling
+.Bootstrap for additional styling
+.The project demonstrates the use of popular technologies for building scalable and maintainable full-stack applications while prioritizing user .experience. The application's mobile responsiveness and user-friendly design make it easy for users to navigate and shop online.
 
 Deploy link: https://mobilic-front-end.onrender.com
