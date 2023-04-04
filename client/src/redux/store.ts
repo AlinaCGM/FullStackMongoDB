@@ -1,0 +1,32 @@
+import { configureStore } from "@reduxjs/toolkit";
+
+import productReducer from "./slice/products";
+import searchReducer from "./slice/search";
+import detailReducer from "./slice/productDetails";
+import wishReducer from "./slice/wishList";
+import cartReducer from "./slice/cartList";
+import userInfoReducer from "./slice/user";
+import relatedProductsReducer from "./slice/relatedProducts";
+import orderReducer from "./slice/order";
+
+const store = configureStore({
+  reducer: {
+    products: productReducer,
+    searchresults: searchReducer,
+    productDetail: detailReducer,
+    wish: wishReducer,
+    cart: cartReducer,
+    userInfo: userInfoReducer,
+    relatedProducts: relatedProductsReducer,
+    orders: orderReducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
+});
+
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
+
+export default store;
