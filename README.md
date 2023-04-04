@@ -1,4 +1,5 @@
 # Fullstack Project
+FullStackMongoDB is a web application built using the MERN stack (MongoDB, Express, React, Node.js) for the backend and frontend, and Redux Toolkit for state management. It is a simple e-commerce application that allows users to browse and purchase products, while also allowing administrators to manage the products and orders.
 
 ## How to run project
 
@@ -16,35 +17,21 @@
 
 **_Remember to run both front-end and back-end at the same time_**
 
-## Requirements
+Backend:
 
-### Back-end
+Node.js
+Express.js
+MongoDB
+Mongoose
+Passport.js for authentication
+JWT for token-based authentication
 
-1. Create a server
-2. Connect to database
-3. Create at least 5 products in Database by `POST` methods
-4. Design the backend where
+Frontend:
 
-- the front end can get list of product
-- user can register
-- user can log in with password and email
-- user can update his/her information (for example: userName)
-- user can make order in front-end then send order information to database
-- user can display his/her orders
-
-### Front-end
-
-1. The website has at least these pages: landing page, product page, product details, wish list ,order page, user register,log in page and user information page
-
-2. Use `Redux Toolkit` to get data
-
-3. Styling library: free to choose
-
-MAKE THE WEBSITE AS BEAUTIFUL AS MUCH AS YOU CAN
-
-### Deadlines
-
-1. Week 1: Done Backend - CRUD
-2. Week 2: Front-end
+React.js
+Redux Toolkit for state management
+Material-UI for styling
+Bootstrap for additional styling
+The project demonstrates the use of popular technologies for building scalable and maintainable full-stack applications while prioritizing user experience. The application's mobile responsiveness and user-friendly design make it easy for users to navigate and shop online.
 
 Deploy link: https://mobilic-front-end.onrender.com
